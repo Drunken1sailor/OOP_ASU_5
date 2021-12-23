@@ -1,0 +1,17 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<LessonListComponent/>
+
+@code {
+
+    string Message { get; set; }
+
+    void ToMessage(string message1)
+    {
+        Message = message1;
+    }
+}

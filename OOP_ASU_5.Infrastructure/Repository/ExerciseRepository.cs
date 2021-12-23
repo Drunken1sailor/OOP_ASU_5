@@ -27,9 +27,11 @@ namespace WebAPI01.Infrastructure
         {
             return await _context.Exercises.OrderBy(p => p.Id).ToListAsync();
         }
-        public async Task<Exercise> GetByIdAsync(int id)
+        public async Task<Exercise> GetByIdAsync(Guid id)
         {
-            return await _context.Exercises.FindAsync(id);
+            return await _context.Exercises.Where(e => e.Id == id)
+                    .Include(e => e.ExerciseVariants)
+                    .FirstOrDefaultAsync();
         }
         public async Task AddAsync(Exercise person)
         {

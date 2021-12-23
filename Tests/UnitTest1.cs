@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using OOP_ASU_5.API.Controllers;
 
 namespace Tests
 
@@ -9,7 +10,7 @@ namespace Tests
         [Fact]
         public void Test1()
         {
-            
+            ExercisesController exercisesController = new ExercisesController()
         }
     }
 }

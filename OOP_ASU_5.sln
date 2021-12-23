@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_ASU_5.Domain", "OOP_ASU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_ASU_5.Infrastructure", "OOP_ASU_5.Infrastructure\OOP_ASU_5.Infrastructure.csproj", "{33BA4E02-DC82-401A-848B-CAA999A93178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FCF11C3A-1466-47A3-87C0-F753B5DD30D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{FCF11C3A-1466-47A3-87C0-F753B5DD30D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
